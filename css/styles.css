@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+
+.btn-gradient {
+  @apply bg-gradient-to-r from-limeGreen to-brightCyan hover:bg-gray-300;
+}
+
+@tailwind utilities;

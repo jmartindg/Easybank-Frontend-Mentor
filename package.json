@@ -1,0 +1,20 @@
+{
+  "name": "Easybank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/styles.css -o build/styles.css",
+    "watch": "watch `npm run build` ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/line-clamp": "^0.2.1",
+    "autoprefixer": "^10.2.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.4",
+    "watch": "^1.0.2"
+  }
+}
