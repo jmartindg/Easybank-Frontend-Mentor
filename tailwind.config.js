@@ -1,9 +1,9 @@
 console.log(process.env.NODE_ENV);
-const purge = process.env.NODE_ENV == "production" ? true : false;
+//const purge = process.env.NODE_ENV == "production" ? true : false;
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-  purge: { enabled: purge, content: ["./build/**/*.html"] },
+  purge: { enabled: true, content: ["./build/**/*.html"] }, // add purge variable to avoid build while development
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
