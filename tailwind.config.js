@@ -3,7 +3,7 @@ console.log(process.env.NODE_ENV);
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-  purge: { enabled: true, content: ["./build/**/*.html"] }, // add purge variable to avoid build while development
+  purge: { enabled: true, content: ["./docs/**/*.html"] }, // add purge variable to avoid build while development
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
